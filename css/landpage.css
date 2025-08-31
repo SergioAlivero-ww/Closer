@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+* {
+  outline: 1px solid red !important;
+}
+
+.welcome-section {
+ min-height: 60vh;
+  width: 100%;
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../assets/dom1.jpg");
+}
+
