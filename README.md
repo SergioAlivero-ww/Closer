@@ -19,6 +19,6 @@ Po dopracowaniu wyglądu będę kontynuował pracę, tworząc popup potwierdzaj�
 
 Na dzień dzisiejszy moim priorytetem jest zakończenie front-endu pierwszej strony i dopracowanie jej wyglądu CSS, co będzie solidnym fundamentem do dalszych etapów projektu.
 
-
+Na dziś konczę na tym ze stworzyłem strukturę HTML. Jutro z rana zaczynam pisac CSS i planować następne kroki
 
 
