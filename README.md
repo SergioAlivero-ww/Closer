@@ -7,5 +7,18 @@ Aktualnie projekt jest we wczesnej fazie — powstaje front-end aplikacji webowe
 
 W repozytorium znajdują się podstawowe pliki HTML, CSS i JavaScript, które będą dalej rozwijane i integrowane.
 
+<!-- Aktualizacja projektu - 31.08.2025.  -->
+
+Dzisiaj przygotowałem pełną strukturę HTML dla strony, którą zobaczy użytkownik po kliknięciu w link otrzymany po założeniu rezerwacji przez Booking.com.
+
+Ta strona jest pierwszym, kluczowym etapem całego procesu — obejmuje powitanie, wybór prezentu, instrukcję "Jak otrzymać prezent" oraz potwierdzenie wyboru z formularzem do podania e-maila.
+
+W kolejnym kroku planuję skupić się na stworzeniu stylów CSS, aby ta strona wyglądała atrakcyjnie i działała poprawnie na różnych urządzeniach.
+
+Po dopracowaniu wyglądu będę kontynuował pracę, tworząc popup potwierdzający poprawne złożenie wyboru oraz zachęcający do sprawdzenia swojej skrzynki e-mail.
+
+Na dzień dzisiejszy moim priorytetem jest zakończenie front-endu pierwszej strony i dopracowanie jej wyglądu CSS, co będzie solidnym fundamentem do dalszych etapów projektu.
+
+
 
 

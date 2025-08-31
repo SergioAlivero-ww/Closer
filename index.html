@@ -7,7 +7,7 @@
 </head>
 <body>
     <section id="welcome-section" class="welcome-section">
-        <h1 class="welcom-witamy">Witamy ciebie,</h1> <!-- witamy {imie} -->
+        <h1 class="welcome-h1">Witamy ciebie,</h1> <!-- witamy {imie} -->
         <div class="welcome" id="welcome-div">
            <p> 
             Cieszymy się niezmiernie, że wybrałeś Hotel Dom Zdrojowy!
@@ -19,6 +19,108 @@
             Zapraszamy do wyboru swojego prezentu poniżej i życzymy niezapomnianych chwil oraz dodatkowych korzyści podczas pobytu!
            </p>
         </div>
+    </section>
+
+    <section id="gift-section" class="gift-section">
+        <h1 class="gift_h1">Wybierz swój prezent</h1>
+        <p>
+            każdy prezent jest naszym podziękowaniem za zaufanie i wybór bezpośredniej rezerwacji 
+        </p>
+        <div class="gift-section__div">
+            <div id="gift-sniadanie__div" class="gift-options">
+                <label for="gift-sniadanie" class="gift-card">
+                    <input type="radio" id="gift-sniadanie" name="gift" value="sniadanie"/>
+                    <div class="gift-icon">ICON</div><!-- ICONE -->
+                    <div class="gift-title">Darmowe śniadanie</div>
+                    <div class="gift-desc">Pyszne śniadanie w restauracji w sercu Brzezna</div>
+                    <div class="gift-value">wartość 118 zł</div>
+                </label>
+            </div>
+            <div id="gift-butelka-wina__div" class="gift-options">
+                <label for="bottle-of-wine" class="gift-card">
+                    <input type="radio" id="bottle-of-wine" name="gift" value="butelka-wina"/>
+                    <div class="gift-icon">ICON</div><!-- CIONE -->
+                    <div class="gift-title">Butelka wina</div>
+                    <div class="gift-desc">doskonały dodatek do relaksu i wyjątkowych chwil.</div>
+                    <div class="gift-value">wartość 169 zł</div>
+                </label>
+            </div>
+            <div id="gift-voucher-resto__div" class="gift-card">
+                <label for="voucher-rest0" class="gift-card">
+                    <input type="radio" id="voucher-resto" name="gift" value="voucher-restauracja">
+                    <div class="gift-icon">ICON</div> <!-- ICONE -->
+                    <div class="gift-title">Voucher do Restauracji Zdrojowej</div>
+                    <div class="gift-desc">Smakuj najlepsze dania i odkryj prawdziwą przyjemność z każdego kęsa.</div>
+                    <div class="gift-value">wartość 150 zł</div>
+                </label>
+            </div>
+        </div>
+
+        <section id="how-to" class="how-to">
+            <h2 class="how-to__h1">Jak otrzymać prezent?</h2>
+            <p>Proces jest prosty i zajmie ci tylko kilka minut</p>
+            <div id="how-to-section__div" class="how-to-wrapper">
+
+                <div class="how-to-steps" id="how-to-steps_step1">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Wybierz prezent i potwierdź zmianę rezerwacji</h3>
+                        <p>Wybierz prezent i potwierdź, że chcesz rezerwację bezpośrednią u nas. Po tym otrzymasz maila z linkiem do wpłaty zadatku.</p>
+                    </div>
+                </div>
+    
+                <div class="how-to-steps" id="how-to-steps_step2">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Wybierz prezent i potwierdź rezerwację bezpośrednią</h3>
+                        <p>W mailu znajdziesz link do wpłaty 20% wartości rezerwacji. Masz 4 tygodnie na dokonanie płatności.</p>
+                    </div>
+                </div >
+    
+                <div class="how-to-steps" id="how-to-steps_step3">
+                    <div class="step-number">3</div>
+                     <div class="step-content">
+                        <h3>Anuluj rezerwację na Booking.com</h3>
+                        <p>Aby otrzymać prezent, pamiętaj, aby anulować rezerwację na Booking.com zgodnie z ich warunkami.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="how-to-section__div2" class="how-to-alert">
+                <h2>Uwaga</h2>
+                <p>Jeśli wpłacisz zadatek, ale nie anulujesz rezerwacji na Booking.com, zwrócimy Ci pieniądze, ale prezent wtedy nie będzie dostępny.</p>
+                <p>W razie pytań lub jeśli wolisz, żebyśmy pomogli Ci załatwić to bezpośrednio, zadzwoń do nas pod numer +48 xxx xxx xxx — chętnie pomożemy!</p>
+            </div>
+
+        </section>
+
+        <section id="confirm-section" class="confirm-section">
+            <div class="confirm-section__div">
+                <div class="gift-icon">
+                    <div class="gift-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8.5H21V21H3V8.5Z" stroke="#7ed2a7" stroke-width="2"/>
+                            <path d="M12 3V21" stroke="#7ed2a7" stroke-width="2"/>
+                            <circle cx="7" cy="5" r="2" stroke="#7ed2a7" stroke-width="2"/>
+                            <circle cx="17" cy="5" r="2" stroke="#7ed2a7" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="confirm-section__div-content">
+                        <h2>Potwierdź swój wybór</h2>
+                        <p>Wybierz prezent z powyższych opcji i wpisz swój adres e-mail. Po potwierdzeniu otrzymasz maila z danymi rezerwacji oraz linkiem do zapłaty zadatku.
+                        </p>
+                        <label for="email" class="mail-input">Adres e-mail:</label>
+                        <input id="email" name="email" type="email" class="input-mail" minlength="5" placeholder="Wpisz swój Email." required>
+                        <button class="confirm-button">
+                            Potwierdzam wybór prezentu
+                        </button>
+                        <p>Klikając potwierdzasz regulamin i politykę prywatności naszego hotelu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
     </section>
 </body>
 </html>
