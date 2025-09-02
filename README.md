@@ -19,6 +19,20 @@ Po dopracowaniu wyglądu będę kontynuował pracę, tworząc popup potwierdzaj�
 
 Na dzień dzisiejszy moim priorytetem jest zakończenie front-endu pierwszej strony i dopracowanie jej wyglądu CSS, co będzie solidnym fundamentem do dalszych etapów projektu.
 
-Na dziś konczę na tym ze stworzyłem strukturę HTML. Jutro z rana zaczynam pisac CSS i planować następne kroki
+Na dziś konczę na tym, ze stworzyłem strukturę HTML. Jutro z rana zaczynam pisac CSS i planować następne kroki
 
+
+<!-- 02.09.2025. -->
+
+Aktualny status
+
+Dziś rozpocząłem pracę nad częścią wizualną strony, głównie CSS sekcji powitalnej i prezentów. Pracuję nad układem, kolorystyką i podstawowym stylem, tak aby strona dobrze wyglądała na tle zdjęcia hotelu.
+
+Plan na jutro
+
+Dokończyć wizualny aspekt całej strony powitalnej i sekcji prezentów.
+
+Zacząć rozwijać prostą mechanikę interakcji (wybór prezentów, podstawowa logika JS).
+
+Przemyśleć i zaplanować logikę procesu rezerwacji i potwierdzeń, by móc później zacząć implementację backendu.
 
