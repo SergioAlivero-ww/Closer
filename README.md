@@ -68,3 +68,25 @@ Dzień 4: reguła „prezent ≈ 5% wartości rezerwacji” i render 3 najlepszy
 
 Dzień 5: ekran podsumowania i prosta analityka zdarzeń (kliknięcia, wysłanie formularza, wybór prezentu).
 
+Dziś zrobione
+
+Ustalono i wdrożono rodzinę czcionek strony hotelu: Alegreya Sans (Light 300 jako domyślna, z dodatkowymi wagami na przyszłość), dodano import w sekcji head i ustawiono font-family oraz font-weight w stylach Closer.
+
+Zaimplementowano modal „sukces” (popup) z potwierdzeniem rezerwacji: gotowa struktura HTML, overlay, treść i przycisk „Zamknij”; dodano style i animacje wejścia/wyjścia.
+
+Ustalono i wdrożono mechanizm pokazywania/chowania modala przez jedną klasę CSS (.is-hidden) oraz naprawiono konflikt specyficzności przez regułę #modal-overlay.is-hidden { display: none; }.
+
+Skonfigurowano narzędzia developerskie (Safari Web Inspector) i potwierdzono użyty font na stronie hotelu (Rendered font) w celu dopasowania typografii w Closer.
+
+Jutro do zrobienia
+
+Walidacja i logika otwarcia modala w JS: po kliknięciu „Potwierdzam rezerwację bezpośrednią” sprawdzić poprawny e‑mail, wybór prezentu oraz zaznaczenie zgody; tylko przy pełnej walidacji zdejmować .is-hidden i pokazywać modal.
+
+Obsługa zamykania modala: klik „Zamknij”, klik w overlay oraz klawisz Esc; po zamknięciu przywracać focus na przycisk potwierdzający.
+
+Zapamiętywanie wyboru prezentu: stan .is-selected lub zapis w localStorage (closer:selectedGift) oraz wykorzystanie przy walidacji.
+
+Przygotowanie komunikatów błędów przy polach (inline): e‑mail niepoprawny, brak prezentu, brak zgody; krótkie, widoczne pod elementami.
+
+Opcjonalnie: po udanym potwierdzeniu dodać „hook” pod wysyłkę danych (fetch POST), aby później spiąć z backendem lub usługą mailową.
+
