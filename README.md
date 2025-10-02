@@ -36,3 +36,35 @@ Zacząć rozwijać prostą mechanikę interakcji (wybór prezentów, podstawowa 
 
 Przemyśleć i zaplanować logikę procesu rezerwacji i potwierdzeń, by móc później zacząć implementację backendu.
 
+<!-- 04.09.2025 -->
+
+Dziś wstępnie dokończyłem CSS. Do zrobienia zostało jeszcze dopracowanie paddingów i marginesów, czcionek oraz może kolorów, żeby całość była jeszcze bardziej spójna i atrakcyjna wizualnie.
+
+Następne kroki na dziś:
+
+Końcowy szlif wizualny (głównie paddingi, marginesy, czcionki, kolory)
+
+Zaprojektowanie i ostylowanie wyboru prezentów przez radio buttony, żeby były estetyczne i nowoczesne
+
+Sprawienie, żeby cała sekcja wyboru prezentów była w pełni użyteczna i atrakcyjna graficznie
+
+<!-- 02.10.2025 -->
+
+
+
+Przerwałem prace nad Closer na ok. miesiąc, żeby dokończyć kurs JS i wrócić spokojnie z solidnymi podstawami. Uznałem, że to lepsze niż ciągłe rozrywanie się między kursem a projektem. Dziś jest 2 października — mam 28 dni na dokończenie MVP i wchodzę w Closer na pełnej.
+
+Na ten moment jest gotowy szkielet UI (HTML + CSS). Dziś poprawiam CSS (fonty, spacing, stany przycisków) i układam plan startu prac nad logiką oraz funkcjonalnościami. To dla mnie nowy obszar, więc świadomie idę małymi krokami.”
+
+Krótki plan na najbliższe dni
+
+Dzień 1: porządki w CSS + dodanie linku do polityki prywatności i stanów przycisków.
+
+Dzień 2: formularz e‑mail z walidacją i komunikatami sukces/błąd; zapamiętywanie wyboru prezentu w przeglądarce.
+
+Dzień 3: szkic modeli danych (Reservation, Offer, GiftSelection) i mock endpointów do pobierania ofert.
+
+Dzień 4: reguła „prezent ≈ 5% wartości rezerwacji” i render 3 najlepszych propozycji.
+
+Dzień 5: ekran podsumowania i prosta analityka zdarzeń (kliknięcia, wysłanie formularza, wybór prezentu).
+
